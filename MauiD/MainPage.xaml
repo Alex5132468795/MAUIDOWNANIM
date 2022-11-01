@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiD.MainPage">
+    <Grid x:Name="Gr" BackgroundColor="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!--<ProgressBar BackgroundColor="Red" x:Name="First" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="0" Grid.Column="0"></ProgressBar>
+        <ProgressBar x:Name="Second" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="0" Grid.Column="1"></ProgressBar>
+        <ProgressBar x:Name="T" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="0" Grid.Column="2"></ProgressBar>
+        <ProgressBar x:Name="Four" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="1" Grid.Column="0"></ProgressBar>
+        <ProgressBar x:Name="Fi" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="1" Grid.Column="2"></ProgressBar>
+        <ProgressBar x:Name="Si" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="2" Grid.Column="0" BackgroundColor="Yellow"></ProgressBar>
+        <ProgressBar x:Name="Se" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="2" Grid.Column="1"></ProgressBar>
+        <ProgressBar x:Name="E" IsVisible="false" Progress="0" ProgressColor="Green" Grid.Row="2" Grid.Column="2"></ProgressBar>-->
+        <Button  x:Name="Star" Text="start " Clicked="Star_Clicked" Grid.Row="1" Grid.Column="1" BackgroundColor="Red"></Button>
+    </Grid>
+
+</ContentPage>
